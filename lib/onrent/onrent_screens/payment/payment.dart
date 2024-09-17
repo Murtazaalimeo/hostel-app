@@ -139,7 +139,7 @@ class _PaymentState extends State<Payment> {
           Uri.parse('https://api.stripe.com/v1/payment_intents'),
           body: body,
           headers: {
-            'Authorization': 'Bearer ' + 'sk_test_51OghVGJKM7tbgReCOUQ4rrZhieIf8qR0MHaiMmCsWvlbiWm8jFh8xWYtuRD04stV3DDuoYLCgCpm7rqSVnplP7GD00mGpLwiLe',
+            'Authorization': 'Bearer ' + '',
             'Content-Type': 'application/x-www-form-urlencoded'
           });
       print('Create Intent reponse ===> ${response.body.toString()}');
